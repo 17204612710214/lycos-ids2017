@@ -1,0 +1,665 @@
+[INFO] 2021-06-09 16:06:04 - Loading data sets ...
+[INFO] 2021-06-09 16:06:04 - Loading dataset from ./datasets/cic-ids2017/train_set.parquet
+[INFO] 2021-06-09 16:06:05 - Dataset shape: (440632, 85)
+[INFO] 2021-06-09 16:06:06 - Dataset shape after feature selection: (440632, 69)
+[INFO] 2021-06-09 16:06:06 - Loading dataset from ./datasets/cic-ids2017/crossval_set.parquet
+[INFO] 2021-06-09 16:06:06 - Dataset shape: (220312, 85)
+[INFO] 2021-06-09 16:06:07 - Dataset shape after feature selection: (220312, 69)
+[INFO] 2021-06-09 16:06:07 - Loading dataset from ./datasets/cic-ids2017/test_set.parquet
+[INFO] 2021-06-09 16:06:07 - Dataset shape: (220312, 85)
+[INFO] 2021-06-09 16:06:07 - Dataset shape after feature selection: (220312, 69)
+[INFO] 2021-06-09 16:06:07 - Normalizing training set ...
+[INFO] 2021-06-09 16:06:08 - Normalizing crossval set ...
+[INFO] 2021-06-09 16:06:08 - Normalizing test set ...
+[INFO] 2021-06-09 16:06:08 - Loading data sets ...
+[INFO] 2021-06-09 16:06:08 - Loading dataset from ./datasets/lycos-ids2017/train_set.parquet
+[INFO] 2021-06-09 16:06:09 - Dataset shape: (440632, 83)
+[INFO] 2021-06-09 16:06:10 - Dataset shape after feature selection: (440632, 74)
+[INFO] 2021-06-09 16:06:10 - Loading dataset from ./datasets/lycos-ids2017/crossval_set.parquet
+[INFO] 2021-06-09 16:06:10 - Dataset shape: (220312, 83)
+[INFO] 2021-06-09 16:06:10 - Dataset shape after feature selection: (220312, 74)
+[INFO] 2021-06-09 16:06:10 - Loading dataset from ./datasets/lycos-ids2017/test_set.parquet
+[INFO] 2021-06-09 16:06:10 - Dataset shape: (220312, 83)
+[INFO] 2021-06-09 16:06:11 - Dataset shape after feature selection: (220312, 74)
+[INFO] 2021-06-09 16:06:11 - Normalizing training set ...
+[INFO] 2021-06-09 16:06:12 - Normalizing crossval set ...
+[INFO] 2021-06-09 16:06:12 - Normalizing test set ...
+[INFO] 2021-06-09 16:06:12 - ------------------------------------------
+[INFO] 2021-06-09 16:06:12 - MLP
+[INFO] 2021-06-09 16:06:12 - Training ...
+[INFO] 2021-06-09 16:06:12 - Creating neural network ...
+[INFO] 2021-06-09 16:06:12 - Model name: mlp_lycos-ids2017
+[INFO] 2021-06-09 16:06:12 - n_epochs: 25
+[INFO] 2021-06-09 16:06:12 - activation function: selu
+[INFO] 2021-06-09 16:06:12 - dropout_rate: 0.11859054480832958
+[INFO] 2021-06-09 16:06:12 - optim_params: [0.0003175219400915149, 0.9158410351985389, 0.999]
+[INFO] 2021-06-09 16:06:12 - Training neural network ...
+[WARNING] 2021-06-09 16:06:13 - Layer neural_network_model is casting an input tensor from dtype float64 to the layer's dtype of float32, which is new behavior in TensorFlow 2.  The layer has dtype float32 because its dtype defaults to floatx.
+
+If you intended to run this layer in float32, you can safely ignore this warning. If in doubt, this warning is likely only an issue if you are porting a TensorFlow 1.X model to TensorFlow 2.
+
+To change all layers to have dtype float64 by default, call `tf.keras.backend.set_floatx('float64')`. To change just this layer, pass dtype='float64' to the layer constructor. If you are the author of this layer, you can disable autocasting by passing autocast=False to the base Layer constructor.
+
+[WARNING] 2021-06-09 16:06:22 - From /home/arnaud/.conda/envs/icdm2021/lib/python3.7/site-packages/tensorflow/python/ops/summary_ops_v2.py:1203: start (from tensorflow.python.eager.profiler) is deprecated and will be removed after 2020-07-01.
+Instructions for updating:
+use `tf.profiler.experimental.start` instead.
+[WARNING] 2021-06-09 16:06:22 - From /home/arnaud/.conda/envs/icdm2021/lib/python3.7/site-packages/tensorflow/python/ops/summary_ops_v2.py:1259: stop (from tensorflow.python.eager.profiler) is deprecated and will be removed after 2020-07-01.
+Instructions for updating:
+use `tf.profiler.experimental.stop` instead.
+[WARNING] 2021-06-09 16:06:22 - From /home/arnaud/.conda/envs/icdm2021/lib/python3.7/site-packages/tensorflow/python/ops/summary_ops_v2.py:1259: save (from tensorflow.python.eager.profiler) is deprecated and will be removed after 2020-07-01.
+Instructions for updating:
+`tf.python.eager.profiler` has deprecated, use `tf.profiler` instead.
+[WARNING] 2021-06-09 16:06:22 - From /home/arnaud/.conda/envs/icdm2021/lib/python3.7/site-packages/tensorflow/python/eager/profiler.py:151: maybe_create_event_file (from tensorflow.python.eager.profiler) is deprecated and will be removed after 2020-07-01.
+Instructions for updating:
+`tf.python.eager.profiler` has deprecated, use `tf.profiler` instead.
+[WARNING] 2021-06-09 16:06:23 - From /home/arnaud/.conda/envs/icdm2021/lib/python3.7/site-packages/tensorflow/python/training/tracking/tracking.py:111: Model.state_updates (from tensorflow.python.keras.engine.training) is deprecated and will be removed in a future version.
+Instructions for updating:
+This property should not be used in TensorFlow 2.0, as updates are applied automatically.
+[WARNING] 2021-06-09 16:06:23 - From /home/arnaud/.conda/envs/icdm2021/lib/python3.7/site-packages/tensorflow/python/training/tracking/tracking.py:111: Layer.updates (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+This property should not be used in TensorFlow 2.0, as updates are applied automatically.
+[INFO] 2021-06-09 16:06:23 - Assets written to: ./saved_models/mlp_lycos-ids2017/assets
+[INFO] 2021-06-09 16:06:32 - Assets written to: ./saved_models/mlp_lycos-ids2017/assets
+[INFO] 2021-06-09 16:06:42 - Assets written to: ./saved_models/mlp_lycos-ids2017/assets
+[INFO] 2021-06-09 16:07:38 - Assets written to: ./saved_models/mlp_lycos-ids2017/assets
+[INFO] 2021-06-09 16:08:07 - Assets written to: ./saved_models/mlp_lycos-ids2017/assets
+[INFO] 2021-06-09 16:08:16 - Assets written to: ./saved_models/mlp_lycos-ids2017/assets
+[INFO] 2021-06-09 16:09:50 - Assets written to: ./saved_models/mlp_lycos-ids2017/assets
+[INFO] 2021-06-09 16:10:09 - MLP training time: 0:03:56.483489
+[INFO] 2021-06-09 16:10:09 - Training done
+[INFO] 2021-06-09 16:10:09 - Inference ...
+[INFO] 2021-06-09 16:10:10 - Results:
+[INFO] 2021-06-09 16:10:10 -  ********** ./datasets/lycos-ids2017/test_set.parquet  **********
+[INFO] 2021-06-09 16:10:10 - Simplified confusion matrix
+[INFO] 2021-06-09 16:10:10 - row=true labels (alphabet. order)
+[INFO] 2021-06-09 16:10:10 - col=Benign | Correct Attack | Other Attack:
+[INFO] 2021-06-09 16:10:10 - [[110032      0    126]
+ [     0    183      0]
+ [     0  23920      0]
+ [   152   1535      4]
+ [     1  39739      7]
+ [    10   1062    144]
+ [    10   1391     17]
+ [     1    999      0]
+ [     0      2      0]
+ [     6  39726      0]
+ [     5    734      0]
+ [   305     34      1]
+ [     2      0      1]
+ [   159      4      0]]
+[INFO] 2021-06-09 16:10:10 - Binary confusion matrix (row=true labels ; col=predicted labels)
+[INFO] 2021-06-09 16:10:10 -   Attack  Benign
+[INFO] 2021-06-09 16:10:10 - [[109503    651]
+ [   126 110032]]
+[INFO] 2021-06-09 16:10:10 - overall cost: 0
+[INFO] 2021-06-09 16:10:10 - true positive: 109503
+[INFO] 2021-06-09 16:10:10 - false positive: 126
+[INFO] 2021-06-09 16:10:10 - false negative: 651
+[INFO] 2021-06-09 16:10:10 - true negative: 110032
+[INFO] 2021-06-09 16:10:10 - true negative rate: 0.998856
+[INFO] 2021-06-09 16:10:10 - false positive rate: 0.001144
+[INFO] 2021-06-09 16:10:10 - recall: 0.994090
+[INFO] 2021-06-09 16:10:10 - precision: 0.998851
+[INFO] 2021-06-09 16:10:10 - accuracy: 0.996473
+[INFO] 2021-06-09 16:10:10 - f1_score: 0.996465
+[INFO] 2021-06-09 16:10:10 - MCC: 0.992958
+[INFO] 2021-06-09 16:10:10 - ------------------------------------------
+[INFO] 2021-06-09 16:10:10 - Linear Discriminant Analysis
+[INFO] 2021-06-09 16:10:10 - Training ...
+[INFO] 2021-06-09 16:10:15 - Inference ...
+[INFO] 2021-06-09 16:10:15 - Results:
+[INFO] 2021-06-09 16:10:15 -  ********** ./datasets/lycos-ids2017/test_set.parquet  **********
+[INFO] 2021-06-09 16:10:15 - Simplified confusion matrix
+[INFO] 2021-06-09 16:10:15 - row=true labels (alphabet. order)
+[INFO] 2021-06-09 16:10:15 - col=Benign | Correct Attack | Other Attack:
+[INFO] 2021-06-09 16:10:15 - [[103159      0   6999]
+ [   171     12      0]
+ [     0  23916      4]
+ [    92   1548     51]
+ [     1  39451    295]
+ [     0    984    232]
+ [   181   1127    110]
+ [     4    996      0]
+ [     0      2      0]
+ [    32  39438    262]
+ [    11    727      1]
+ [    14    326      0]
+ [     2      1      0]
+ [     0      4    159]]
+[INFO] 2021-06-09 16:10:15 - Binary confusion matrix (row=true labels ; col=predicted labels)
+[INFO] 2021-06-09 16:10:15 -   Attack  Benign
+[INFO] 2021-06-09 16:10:15 - [[109646    508]
+ [  6999 103159]]
+[INFO] 2021-06-09 16:10:15 - overall cost: 0
+[INFO] 2021-06-09 16:10:15 - true positive: 109646
+[INFO] 2021-06-09 16:10:15 - false positive: 6999
+[INFO] 2021-06-09 16:10:15 - false negative: 508
+[INFO] 2021-06-09 16:10:15 - true negative: 103159
+[INFO] 2021-06-09 16:10:15 - true negative rate: 0.936464
+[INFO] 2021-06-09 16:10:15 - false positive rate: 0.063536
+[INFO] 2021-06-09 16:10:15 - recall: 0.995388
+[INFO] 2021-06-09 16:10:15 - precision: 0.939997
+[INFO] 2021-06-09 16:10:15 - accuracy: 0.965926
+[INFO] 2021-06-09 16:10:15 - f1_score: 0.966900
+[INFO] 2021-06-09 16:10:15 - MCC: 0.933473
+[INFO] 2021-06-09 16:10:15 - ------------------------------------------
+[INFO] 2021-06-09 16:10:15 - Quadratic Discriminant Analysis
+[INFO] 2021-06-09 16:10:15 - Training ...
+[INFO] 2021-06-09 16:10:19 - Inference ...
+[INFO] 2021-06-09 16:10:23 - Results:
+[INFO] 2021-06-09 16:10:23 -  ********** ./datasets/lycos-ids2017/test_set.parquet  **********
+[INFO] 2021-06-09 16:10:23 - Simplified confusion matrix
+[INFO] 2021-06-09 16:10:23 - row=true labels (alphabet. order)
+[INFO] 2021-06-09 16:10:23 - col=Benign | Correct Attack | Other Attack:
+[INFO] 2021-06-09 16:10:23 - [[110075      0     83]
+ [     4    179      0]
+ [    15  23905      0]
+ [     1   1687      3]
+ [   136  39607      4]
+ [    18   1151     47]
+ [     7   1400     11]
+ [     4    996      0]
+ [     2      0      0]
+ [    85  39641      6]
+ [    13    726      0]
+ [     4     32    304]
+ [     0      0      3]
+ [     4    159      0]]
+[INFO] 2021-06-09 16:10:23 - Binary confusion matrix (row=true labels ; col=predicted labels)
+[INFO] 2021-06-09 16:10:23 -   Attack  Benign
+[INFO] 2021-06-09 16:10:23 - [[109861    293]
+ [    83 110075]]
+[INFO] 2021-06-09 16:10:23 - overall cost: 0
+[INFO] 2021-06-09 16:10:23 - true positive: 109861
+[INFO] 2021-06-09 16:10:23 - false positive: 83
+[INFO] 2021-06-09 16:10:23 - false negative: 293
+[INFO] 2021-06-09 16:10:23 - true negative: 110075
+[INFO] 2021-06-09 16:10:23 - true negative rate: 0.999247
+[INFO] 2021-06-09 16:10:23 - false positive rate: 0.000753
+[INFO] 2021-06-09 16:10:23 - recall: 0.997340
+[INFO] 2021-06-09 16:10:23 - precision: 0.999245
+[INFO] 2021-06-09 16:10:23 - accuracy: 0.998293
+[INFO] 2021-06-09 16:10:23 - f1_score: 0.998292
+[INFO] 2021-06-09 16:10:23 - MCC: 0.996588
+[INFO] 2021-06-09 16:10:23 - ------------------------------------------
+[INFO] 2021-06-09 16:10:23 - SVM
+[INFO] 2021-06-09 16:10:23 - Training ...
+[INFO] 2021-06-09 16:15:55 - Inference ...
+[INFO] 2021-06-09 16:15:55 - Results:
+[INFO] 2021-06-09 16:15:55 -  ********** ./datasets/lycos-ids2017/test_set.parquet  **********
+[INFO] 2021-06-09 16:15:55 - Simplified confusion matrix
+[INFO] 2021-06-09 16:15:55 - row=true labels (alphabet. order)
+[INFO] 2021-06-09 16:15:55 - col=Benign | Correct Attack | Other Attack:
+[INFO] 2021-06-09 16:15:55 - [[109734      0    424]
+ [    12    171      0]
+ [     0  23916      4]
+ [    45   1643      3]
+ [     5  39731     11]
+ [    13   1169     34]
+ [    45   1344     29]
+ [     1    997      2]
+ [     2      0      0]
+ [    33  39684     15]
+ [    10    728      1]
+ [   334      6      0]
+ [     2      0      1]
+ [   163      0      0]]
+[INFO] 2021-06-09 16:15:55 - Binary confusion matrix (row=true labels ; col=predicted labels)
+[INFO] 2021-06-09 16:15:55 -   Attack  Benign
+[INFO] 2021-06-09 16:15:55 - [[109489    665]
+ [   424 109734]]
+[INFO] 2021-06-09 16:15:55 - overall cost: 0
+[INFO] 2021-06-09 16:15:55 - true positive: 109489
+[INFO] 2021-06-09 16:15:55 - false positive: 424
+[INFO] 2021-06-09 16:15:55 - false negative: 665
+[INFO] 2021-06-09 16:15:55 - true negative: 109734
+[INFO] 2021-06-09 16:15:55 - true negative rate: 0.996151
+[INFO] 2021-06-09 16:15:55 - false positive rate: 0.003849
+[INFO] 2021-06-09 16:15:55 - recall: 0.993963
+[INFO] 2021-06-09 16:15:55 - precision: 0.996142
+[INFO] 2021-06-09 16:15:55 - accuracy: 0.995057
+[INFO] 2021-06-09 16:15:55 - f1_score: 0.995052
+[INFO] 2021-06-09 16:15:55 - MCC: 0.990116
+[INFO] 2021-06-09 16:15:55 - ------------------------------------------
+[INFO] 2021-06-09 16:15:55 - k-Nearest Neighbors
+[INFO] 2021-06-09 16:15:55 - Training ...
+[INFO] 2021-06-09 16:15:55 - Inference ...
+[INFO] 2021-06-09 16:46:51 - Results:
+[INFO] 2021-06-09 16:46:51 -  ********** ./datasets/lycos-ids2017/test_set.parquet  **********
+[INFO] 2021-06-09 16:46:51 - Simplified confusion matrix
+[INFO] 2021-06-09 16:46:51 - row=true labels (alphabet. order)
+[INFO] 2021-06-09 16:46:51 - col=Benign | Correct Attack | Other Attack:
+[INFO] 2021-06-09 16:46:51 - [[110053      0    105]
+ [     2    181      0]
+ [     0  23920      0]
+ [     2   1679     10]
+ [     7  39733      7]
+ [    19   1182     15]
+ [     4   1404     10]
+ [     1    999      0]
+ [     0      2      0]
+ [     4  39725      3]
+ [     5    734      0]
+ [     1    275     64]
+ [     2      0      1]
+ [     0     50    113]]
+[INFO] 2021-06-09 16:46:51 - Binary confusion matrix (row=true labels ; col=predicted labels)
+[INFO] 2021-06-09 16:46:51 -   Attack  Benign
+[INFO] 2021-06-09 16:46:51 - [[110107     47]
+ [   105 110053]]
+[INFO] 2021-06-09 16:46:51 - overall cost: 0
+[INFO] 2021-06-09 16:46:51 - true positive: 110107
+[INFO] 2021-06-09 16:46:51 - false positive: 105
+[INFO] 2021-06-09 16:46:51 - false negative: 47
+[INFO] 2021-06-09 16:46:51 - true negative: 110053
+[INFO] 2021-06-09 16:46:51 - true negative rate: 0.999047
+[INFO] 2021-06-09 16:46:51 - false positive rate: 0.000953
+[INFO] 2021-06-09 16:46:51 - recall: 0.999573
+[INFO] 2021-06-09 16:46:51 - precision: 0.999047
+[INFO] 2021-06-09 16:46:51 - accuracy: 0.999310
+[INFO] 2021-06-09 16:46:51 - f1_score: 0.999310
+[INFO] 2021-06-09 16:46:51 - MCC: 0.998620
+[INFO] 2021-06-09 16:46:51 - ------------------------------------------
+[INFO] 2021-06-09 16:46:51 - Decision Tree
+[INFO] 2021-06-09 16:46:51 - Training ...
+[INFO] 2021-06-09 16:47:02 - Inference ...
+[INFO] 2021-06-09 16:47:02 - Results:
+[INFO] 2021-06-09 16:47:02 -  ********** ./datasets/lycos-ids2017/test_set.parquet  **********
+[INFO] 2021-06-09 16:47:02 - Simplified confusion matrix
+[INFO] 2021-06-09 16:47:02 - row=true labels (alphabet. order)
+[INFO] 2021-06-09 16:47:02 - col=Benign | Correct Attack | Other Attack:
+[INFO] 2021-06-09 16:47:02 - [[110069      0     89]
+ [     2    181      0]
+ [     0  23920      0]
+ [    52   1635      4]
+ [     6  39735      6]
+ [     8   1190     18]
+ [     2   1410      6]
+ [     0   1000      0]
+ [     0      2      0]
+ [     1  39729      2]
+ [     3    736      0]
+ [     4    237     99]
+ [     2      0      1]
+ [     1     56    106]]
+[INFO] 2021-06-09 16:47:02 - Binary confusion matrix (row=true labels ; col=predicted labels)
+[INFO] 2021-06-09 16:47:02 -   Attack  Benign
+[INFO] 2021-06-09 16:47:02 - [[110073     81]
+ [    89 110069]]
+[INFO] 2021-06-09 16:47:02 - overall cost: 0
+[INFO] 2021-06-09 16:47:02 - true positive: 110073
+[INFO] 2021-06-09 16:47:02 - false positive: 89
+[INFO] 2021-06-09 16:47:02 - false negative: 81
+[INFO] 2021-06-09 16:47:02 - true negative: 110069
+[INFO] 2021-06-09 16:47:02 - true negative rate: 0.999192
+[INFO] 2021-06-09 16:47:02 - false positive rate: 0.000808
+[INFO] 2021-06-09 16:47:02 - recall: 0.999265
+[INFO] 2021-06-09 16:47:02 - precision: 0.999192
+[INFO] 2021-06-09 16:47:02 - accuracy: 0.999228
+[INFO] 2021-06-09 16:47:02 - f1_score: 0.999228
+[INFO] 2021-06-09 16:47:02 - MCC: 0.998457
+[INFO] 2021-06-09 16:47:02 - ------------------------------------------
+[INFO] 2021-06-09 16:47:02 - Random Forest
+[INFO] 2021-06-09 16:47:02 - Training ...
+[INFO] 2021-06-09 16:48:10 - Inference ...
+[INFO] 2021-06-09 16:48:12 - Results:
+[INFO] 2021-06-09 16:48:12 -  ********** ./datasets/lycos-ids2017/test_set.parquet  **********
+[INFO] 2021-06-09 16:48:12 - Simplified confusion matrix
+[INFO] 2021-06-09 16:48:12 - row=true labels (alphabet. order)
+[INFO] 2021-06-09 16:48:12 - col=Benign | Correct Attack | Other Attack:
+[INFO] 2021-06-09 16:48:12 - [[110097      0     61]
+ [     0    183      0]
+ [     0  23920      0]
+ [    10   1678      3]
+ [     3  39738      6]
+ [     4   1203      9]
+ [     3   1412      3]
+ [     0   1000      0]
+ [     0      2      0]
+ [     2  39728      2]
+ [     2    737      0]
+ [     1    313     26]
+ [     2      0      1]
+ [     0     20    143]]
+[INFO] 2021-06-09 16:48:12 - Binary confusion matrix (row=true labels ; col=predicted labels)
+[INFO] 2021-06-09 16:48:12 -   Attack  Benign
+[INFO] 2021-06-09 16:48:12 - [[110127     27]
+ [    61 110097]]
+[INFO] 2021-06-09 16:48:12 - overall cost: 0
+[INFO] 2021-06-09 16:48:12 - true positive: 110127
+[INFO] 2021-06-09 16:48:12 - false positive: 61
+[INFO] 2021-06-09 16:48:12 - false negative: 27
+[INFO] 2021-06-09 16:48:12 - true negative: 110097
+[INFO] 2021-06-09 16:48:12 - true negative rate: 0.999446
+[INFO] 2021-06-09 16:48:12 - false positive rate: 0.000554
+[INFO] 2021-06-09 16:48:12 - recall: 0.999755
+[INFO] 2021-06-09 16:48:12 - precision: 0.999446
+[INFO] 2021-06-09 16:48:12 - accuracy: 0.999601
+[INFO] 2021-06-09 16:48:12 - f1_score: 0.999601
+[INFO] 2021-06-09 16:48:12 - MCC: 0.999201
+[INFO] 2021-06-09 16:48:12 -             Metrics            MLP  ...             DT             RF
+0                TP  109503.000000  ...  110073.000000  110127.000000
+1                FP     126.000000  ...      89.000000      61.000000
+2                FN     651.000000  ...      81.000000      27.000000
+3                TN  110032.000000  ...  110069.000000  110097.000000
+4               TNR       0.998856  ...       0.999192       0.999446
+5               FPR       0.001144  ...       0.000808       0.000554
+6            Recall       0.994090  ...       0.999265       0.999755
+7         Precision       0.998851  ...       0.999192       0.999446
+8          Accuracy       0.996473  ...       0.999228       0.999601
+9          F1_score       0.996465  ...       0.999228       0.999601
+10              MCC       0.992958  ...       0.998457       0.999201
+11    Training time     236.483699  ...      10.202690      68.460607
+12  Prediction time       0.831718  ...       0.038987       1.890482
+
+[13 rows x 8 columns]
+[INFO] 2021-06-09 16:48:12 - ------------------------------------------
+[INFO] 2021-06-09 16:48:12 - MLP
+[INFO] 2021-06-09 16:48:12 - Training ...
+[INFO] 2021-06-09 16:48:12 - Creating neural network ...
+[INFO] 2021-06-09 16:48:12 - Model name: mlp_cic-ids2017
+[INFO] 2021-06-09 16:48:12 - n_epochs: 25
+[INFO] 2021-06-09 16:48:12 - activation function: selu
+[INFO] 2021-06-09 16:48:12 - dropout_rate: 0.20886178816521117
+[INFO] 2021-06-09 16:48:12 - optim_params: [0.0003590920789688343, 0.8662527597085028, 0.999]
+[INFO] 2021-06-09 16:48:12 - Training neural network ...
+[WARNING] 2021-06-09 16:48:13 - Layer neural_network_model_1 is casting an input tensor from dtype float64 to the layer's dtype of float32, which is new behavior in TensorFlow 2.  The layer has dtype float32 because its dtype defaults to floatx.
+
+If you intended to run this layer in float32, you can safely ignore this warning. If in doubt, this warning is likely only an issue if you are porting a TensorFlow 1.X model to TensorFlow 2.
+
+To change all layers to have dtype float64 by default, call `tf.keras.backend.set_floatx('float64')`. To change just this layer, pass dtype='float64' to the layer constructor. If you are the author of this layer, you can disable autocasting by passing autocast=False to the base Layer constructor.
+
+[INFO] 2021-06-09 16:48:23 - Assets written to: ./saved_models/mlp_cic-ids2017/assets
+[INFO] 2021-06-09 16:48:33 - Assets written to: ./saved_models/mlp_cic-ids2017/assets
+[INFO] 2021-06-09 16:50:15 - Assets written to: ./saved_models/mlp_cic-ids2017/assets
+[INFO] 2021-06-09 16:51:22 - Assets written to: ./saved_models/mlp_cic-ids2017/assets
+[INFO] 2021-06-09 16:52:09 - Assets written to: ./saved_models/mlp_cic-ids2017/assets
+[INFO] 2021-06-09 16:52:09 - MLP training time: 0:03:56.971643
+[INFO] 2021-06-09 16:52:09 - Training done
+[INFO] 2021-06-09 16:52:09 - Inference ...
+[INFO] 2021-06-09 16:52:10 - Results:
+[INFO] 2021-06-09 16:52:10 -  ********** ./datasets/cic-ids2017/test_set.parquet  **********
+[INFO] 2021-06-09 16:52:10 - Simplified confusion matrix
+[INFO] 2021-06-09 16:52:10 - row=true labels (alphabet. order)
+[INFO] 2021-06-09 16:52:10 - col=Benign | Correct Attack | Other Attack:
+[INFO] 2021-06-09 16:52:10 - [[108413      0   1745]
+ [    72    111      0]
+ [    12  23884     24]
+ [    68   1613     10]
+ [    24  39720      3]
+ [     9   1188     19]
+ [    23   1365     30]
+ [     0    998      2]
+ [     0      2      0]
+ [     1  39716     15]
+ [    21    714      4]
+ [     3    303     34]
+ [     2      0      1]
+ [     1      0    162]]
+[INFO] 2021-06-09 16:52:10 - Binary confusion matrix (row=true labels ; col=predicted labels)
+[INFO] 2021-06-09 16:52:10 -   Attack  Benign
+[INFO] 2021-06-09 16:52:10 - [[109918    236]
+ [  1745 108413]]
+[INFO] 2021-06-09 16:52:10 - overall cost: 0
+[INFO] 2021-06-09 16:52:10 - true positive: 109918
+[INFO] 2021-06-09 16:52:10 - false positive: 1745
+[INFO] 2021-06-09 16:52:10 - false negative: 236
+[INFO] 2021-06-09 16:52:10 - true negative: 108413
+[INFO] 2021-06-09 16:52:10 - true negative rate: 0.984159
+[INFO] 2021-06-09 16:52:10 - false positive rate: 0.015841
+[INFO] 2021-06-09 16:52:10 - recall: 0.997858
+[INFO] 2021-06-09 16:52:10 - precision: 0.984373
+[INFO] 2021-06-09 16:52:10 - accuracy: 0.991008
+[INFO] 2021-06-09 16:52:10 - f1_score: 0.991069
+[INFO] 2021-06-09 16:52:10 - MCC: 0.982109
+[INFO] 2021-06-09 16:52:10 - ------------------------------------------
+[INFO] 2021-06-09 16:52:10 - Linear Discriminant Analysis
+[INFO] 2021-06-09 16:52:10 - Training ...
+[INFO] 2021-06-09 16:52:15 - Inference ...
+[INFO] 2021-06-09 16:52:15 - Results:
+[INFO] 2021-06-09 16:52:15 -  ********** ./datasets/cic-ids2017/test_set.parquet  **********
+[INFO] 2021-06-09 16:52:15 - Simplified confusion matrix
+[INFO] 2021-06-09 16:52:15 - row=true labels (alphabet. order)
+[INFO] 2021-06-09 16:52:15 - col=Benign | Correct Attack | Other Attack:
+[INFO] 2021-06-09 16:52:15 - [[85787     0 24371]
+ [   66     4   113]
+ [   13 22949   958]
+ [  162  1443    86]
+ [ 1533 32019  6195]
+ [   24   922   270]
+ [    3   724   691]
+ [    0   480   520]
+ [    0     2     0]
+ [    1 39426   305]
+ [    5   723    11]
+ [   29   277    34]
+ [    2     0     1]
+ [    2     0   161]]
+[INFO] 2021-06-09 16:52:15 - Binary confusion matrix (row=true labels ; col=predicted labels)
+[INFO] 2021-06-09 16:52:15 -   Attack  Benign
+[INFO] 2021-06-09 16:52:15 - [[108314   1840]
+ [ 24371  85787]]
+[INFO] 2021-06-09 16:52:15 - overall cost: 0
+[INFO] 2021-06-09 16:52:15 - true positive: 108314
+[INFO] 2021-06-09 16:52:15 - false positive: 24371
+[INFO] 2021-06-09 16:52:15 - false negative: 1840
+[INFO] 2021-06-09 16:52:15 - true negative: 85787
+[INFO] 2021-06-09 16:52:15 - true negative rate: 0.778763
+[INFO] 2021-06-09 16:52:15 - false positive rate: 0.221237
+[INFO] 2021-06-09 16:52:15 - recall: 0.983296
+[INFO] 2021-06-09 16:52:15 - precision: 0.816324
+[INFO] 2021-06-09 16:52:15 - accuracy: 0.881028
+[INFO] 2021-06-09 16:52:15 - f1_score: 0.892064
+[INFO] 2021-06-09 16:52:15 - MCC: 0.778515
+[INFO] 2021-06-09 16:52:15 - ------------------------------------------
+[INFO] 2021-06-09 16:52:15 - Quadratic Discriminant Analysis
+[INFO] 2021-06-09 16:52:15 - Training ...
+[INFO] 2021-06-09 16:52:18 - Inference ...
+[INFO] 2021-06-09 16:52:21 - Results:
+[INFO] 2021-06-09 16:52:21 -  ********** ./datasets/cic-ids2017/test_set.parquet  **********
+[INFO] 2021-06-09 16:52:21 - Simplified confusion matrix
+[INFO] 2021-06-09 16:52:21 - row=true labels (alphabet. order)
+[INFO] 2021-06-09 16:52:21 - col=Benign | Correct Attack | Other Attack:
+[INFO] 2021-06-09 16:52:21 - [[105583      0   4575]
+ [     5    178      0]
+ [    48  23868      4]
+ [     2   1688      1]
+ [   122  39602     23]
+ [    11   1160     45]
+ [     6   1405      7]
+ [     2    998      0]
+ [     2      0      0]
+ [   234  39467     31]
+ [    14    725      0]
+ [     7     60    273]
+ [     1      0      2]
+ [     3    158      2]]
+[INFO] 2021-06-09 16:52:21 - Binary confusion matrix (row=true labels ; col=predicted labels)
+[INFO] 2021-06-09 16:52:21 -   Attack  Benign
+[INFO] 2021-06-09 16:52:21 - [[109697    457]
+ [  4575 105583]]
+[INFO] 2021-06-09 16:52:21 - overall cost: 0
+[INFO] 2021-06-09 16:52:21 - true positive: 109697
+[INFO] 2021-06-09 16:52:21 - false positive: 4575
+[INFO] 2021-06-09 16:52:21 - false negative: 457
+[INFO] 2021-06-09 16:52:21 - true negative: 105583
+[INFO] 2021-06-09 16:52:21 - true negative rate: 0.958469
+[INFO] 2021-06-09 16:52:21 - false positive rate: 0.041531
+[INFO] 2021-06-09 16:52:21 - recall: 0.995851
+[INFO] 2021-06-09 16:52:21 - precision: 0.959964
+[INFO] 2021-06-09 16:52:21 - accuracy: 0.977160
+[INFO] 2021-06-09 16:52:21 - f1_score: 0.977578
+[INFO] 2021-06-09 16:52:21 - MCC: 0.954987
+[INFO] 2021-06-09 16:52:21 - ------------------------------------------
+[INFO] 2021-06-09 16:52:21 - SVM
+[INFO] 2021-06-09 16:52:21 - Training ...
+[INFO] 2021-06-09 17:00:38 - Inference ...
+[INFO] 2021-06-09 17:00:38 - Results:
+[INFO] 2021-06-09 17:00:38 -  ********** ./datasets/cic-ids2017/test_set.parquet  **********
+[INFO] 2021-06-09 17:00:38 - Simplified confusion matrix
+[INFO] 2021-06-09 17:00:38 - row=true labels (alphabet. order)
+[INFO] 2021-06-09 17:00:38 - col=Benign | Correct Attack | Other Attack:
+[INFO] 2021-06-09 17:00:38 - [[105390      0   4768]
+ [   141      3     39]
+ [    32  23870     18]
+ [   171   1485     35]
+ [   107  39597     43]
+ [   151   1043     22]
+ [   244   1155     19]
+ [     1    999      0]
+ [     0      2      0]
+ [   158  39539     35]
+ [   374    361      4]
+ [   340      0      0]
+ [     3      0      0]
+ [   156      0      7]]
+[INFO] 2021-06-09 17:00:38 - Binary confusion matrix (row=true labels ; col=predicted labels)
+[INFO] 2021-06-09 17:00:38 -   Attack  Benign
+[INFO] 2021-06-09 17:00:38 - [[108276   1878]
+ [  4768 105390]]
+[INFO] 2021-06-09 17:00:38 - overall cost: 0
+[INFO] 2021-06-09 17:00:38 - true positive: 108276
+[INFO] 2021-06-09 17:00:38 - false positive: 4768
+[INFO] 2021-06-09 17:00:38 - false negative: 1878
+[INFO] 2021-06-09 17:00:38 - true negative: 105390
+[INFO] 2021-06-09 17:00:38 - true negative rate: 0.956717
+[INFO] 2021-06-09 17:00:38 - false positive rate: 0.043283
+[INFO] 2021-06-09 17:00:38 - recall: 0.982951
+[INFO] 2021-06-09 17:00:38 - precision: 0.957822
+[INFO] 2021-06-09 17:00:38 - accuracy: 0.969834
+[INFO] 2021-06-09 17:00:38 - f1_score: 0.970224
+[INFO] 2021-06-09 17:00:38 - MCC: 0.939991
+[INFO] 2021-06-09 17:00:38 - ------------------------------------------
+[INFO] 2021-06-09 17:00:38 - k-Nearest Neighbors
+[INFO] 2021-06-09 17:00:38 - Training ...
+[INFO] 2021-06-09 17:00:38 - Inference ...
+[INFO] 2021-06-09 17:34:29 - Results:
+[INFO] 2021-06-09 17:34:29 -  ********** ./datasets/cic-ids2017/test_set.parquet  **********
+[INFO] 2021-06-09 17:34:29 - Simplified confusion matrix
+[INFO] 2021-06-09 17:34:29 - row=true labels (alphabet. order)
+[INFO] 2021-06-09 17:34:29 - col=Benign | Correct Attack | Other Attack:
+[INFO] 2021-06-09 17:34:29 - [[108899      0   1259]
+ [    64    119      0]
+ [     6  23904     10]
+ [     9   1676      6]
+ [    74  39662     11]
+ [    11   1187     18]
+ [     6   1407      5]
+ [     1    999      0]
+ [     0      2      0]
+ [    86  39636     10]
+ [    10    726      3]
+ [     3    262     75]
+ [     2      0      1]
+ [     1     60    102]]
+[INFO] 2021-06-09 17:34:29 - Binary confusion matrix (row=true labels ; col=predicted labels)
+[INFO] 2021-06-09 17:34:29 -   Attack  Benign
+[INFO] 2021-06-09 17:34:29 - [[109881    273]
+ [  1259 108899]]
+[INFO] 2021-06-09 17:34:29 - overall cost: 0
+[INFO] 2021-06-09 17:34:29 - true positive: 109881
+[INFO] 2021-06-09 17:34:29 - false positive: 1259
+[INFO] 2021-06-09 17:34:29 - false negative: 273
+[INFO] 2021-06-09 17:34:29 - true negative: 108899
+[INFO] 2021-06-09 17:34:29 - true negative rate: 0.988571
+[INFO] 2021-06-09 17:34:29 - false positive rate: 0.011429
+[INFO] 2021-06-09 17:34:29 - recall: 0.997522
+[INFO] 2021-06-09 17:34:29 - precision: 0.988672
+[INFO] 2021-06-09 17:34:29 - accuracy: 0.993046
+[INFO] 2021-06-09 17:34:29 - f1_score: 0.993077
+[INFO] 2021-06-09 17:34:29 - MCC: 0.986132
+[INFO] 2021-06-09 17:34:29 - ------------------------------------------
+[INFO] 2021-06-09 17:34:29 - Decision Tree
+[INFO] 2021-06-09 17:34:29 - Training ...
+[INFO] 2021-06-09 17:34:40 - Inference ...
+[INFO] 2021-06-09 17:34:40 - Results:
+[INFO] 2021-06-09 17:34:40 -  ********** ./datasets/cic-ids2017/test_set.parquet  **********
+[INFO] 2021-06-09 17:34:40 - Simplified confusion matrix
+[INFO] 2021-06-09 17:34:40 - row=true labels (alphabet. order)
+[INFO] 2021-06-09 17:34:40 - col=Benign | Correct Attack | Other Attack:
+[INFO] 2021-06-09 17:34:40 - [[110016      0    142]
+ [    25    158      0]
+ [     5  23912      3]
+ [     0   1683      8]
+ [    17  39723      7]
+ [     2   1203     11]
+ [     2   1404     12]
+ [     0   1000      0]
+ [     0      2      0]
+ [    57  39666      9]
+ [     4    735      0]
+ [     4    236    100]
+ [     2      1      0]
+ [     1     69     93]]
+[INFO] 2021-06-09 17:34:40 - Binary confusion matrix (row=true labels ; col=predicted labels)
+[INFO] 2021-06-09 17:34:40 -   Attack  Benign
+[INFO] 2021-06-09 17:34:40 - [[110035    119]
+ [   142 110016]]
+[INFO] 2021-06-09 17:34:40 - overall cost: 0
+[INFO] 2021-06-09 17:34:40 - true positive: 110035
+[INFO] 2021-06-09 17:34:40 - false positive: 142
+[INFO] 2021-06-09 17:34:40 - false negative: 119
+[INFO] 2021-06-09 17:34:40 - true negative: 110016
+[INFO] 2021-06-09 17:34:40 - true negative rate: 0.998711
+[INFO] 2021-06-09 17:34:40 - false positive rate: 0.001289
+[INFO] 2021-06-09 17:34:40 - recall: 0.998920
+[INFO] 2021-06-09 17:34:40 - precision: 0.998711
+[INFO] 2021-06-09 17:34:40 - accuracy: 0.998815
+[INFO] 2021-06-09 17:34:40 - f1_score: 0.998815
+[INFO] 2021-06-09 17:34:40 - MCC: 0.997631
+[INFO] 2021-06-09 17:34:40 - ------------------------------------------
+[INFO] 2021-06-09 17:34:40 - Random Forest
+[INFO] 2021-06-09 17:34:40 - Training ...
+[INFO] 2021-06-09 17:35:56 - Inference ...
+[INFO] 2021-06-09 17:35:59 - Results:
+[INFO] 2021-06-09 17:35:59 -  ********** ./datasets/cic-ids2017/test_set.parquet  **********
+[INFO] 2021-06-09 17:35:59 - Simplified confusion matrix
+[INFO] 2021-06-09 17:35:59 - row=true labels (alphabet. order)
+[INFO] 2021-06-09 17:35:59 - col=Benign | Correct Attack | Other Attack:
+[INFO] 2021-06-09 17:35:59 - [[110051      0    107]
+ [    47    136      0]
+ [     9  23908      3]
+ [     1   1683      7]
+ [    15  39730      2]
+ [     4   1203      9]
+ [     4   1411      3]
+ [     0   1000      0]
+ [     0      2      0]
+ [     2  39720     10]
+ [     5    733      1]
+ [     4    275     61]
+ [     3      0      0]
+ [     8     47    108]]
+[INFO] 2021-06-09 17:35:59 - Binary confusion matrix (row=true labels ; col=predicted labels)
+[INFO] 2021-06-09 17:35:59 -   Attack  Benign
+[INFO] 2021-06-09 17:35:59 - [[110052    102]
+ [   107 110051]]
+[INFO] 2021-06-09 17:35:59 - overall cost: 0
+[INFO] 2021-06-09 17:35:59 - true positive: 110052
+[INFO] 2021-06-09 17:35:59 - false positive: 107
+[INFO] 2021-06-09 17:35:59 - false negative: 102
+[INFO] 2021-06-09 17:35:59 - true negative: 110051
+[INFO] 2021-06-09 17:35:59 - true negative rate: 0.999029
+[INFO] 2021-06-09 17:35:59 - false positive rate: 0.000971
+[INFO] 2021-06-09 17:35:59 - recall: 0.999074
+[INFO] 2021-06-09 17:35:59 - precision: 0.999029
+[INFO] 2021-06-09 17:35:59 - accuracy: 0.999051
+[INFO] 2021-06-09 17:35:59 - f1_score: 0.999051
+[INFO] 2021-06-09 17:35:59 - MCC: 0.998103
+[INFO] 2021-06-09 17:35:59 -             Metrics            MLP  ...             DT             RF
+0                TP  109918.000000  ...  110035.000000  110052.000000
+1                FP    1745.000000  ...     142.000000     107.000000
+2                FN     236.000000  ...     119.000000     102.000000
+3                TN  108413.000000  ...  110016.000000  110051.000000
+4               TNR       0.984159  ...       0.998711       0.999029
+5               FPR       0.015841  ...       0.001289       0.000971
+6            Recall       0.997858  ...       0.998920       0.999074
+7         Precision       0.984373  ...       0.998711       0.999029
+8          Accuracy       0.991008  ...       0.998815       0.999051
+9          F1_score       0.991069  ...       0.998815       0.999051
+10              MCC       0.982109  ...       0.997631       0.998103
+11    Training time     236.972577  ...      11.081624      76.101022
+12  Prediction time       0.766315  ...       0.043301       2.344551
+
+[13 rows x 8 columns]
+[INFO] 2021-06-09 17:35:59 - ----Program finished----

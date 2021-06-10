@@ -1,0 +1,55 @@
+[INFO] 2021-06-08 15:44:50 - Number of CPUs: 12 - Number of files: 5
+[INFO] 2021-06-08 15:44:53 - Mon_thread - Labelling the flows of the generated files
+[INFO] 2021-06-08 15:44:53 - Mon_thread - Loading CSV ./pcap_lycos/Monday-WorkingHours.pcap_lycos.csv
+[INFO] 2021-06-08 15:44:53 - Tue_thread - Labelling the flows of the generated files
+[INFO] 2021-06-08 15:44:53 - Wed_thread - Labelling the flows of the generated files
+[INFO] 2021-06-08 15:44:53 - Tue_thread - Loading CSV ./pcap_lycos/Tuesday-WorkingHours.pcap_lycos.csv
+[INFO] 2021-06-08 15:44:53 - Wed_thread - Loading CSV ./pcap_lycos/Wednesday-WorkingHours.pcap_lycos.csv
+[INFO] 2021-06-08 15:44:53 - Thu_thread - Labelling the flows of the generated files
+[INFO] 2021-06-08 15:44:53 - Fri_thread - Labelling the flows of the generated files
+[INFO] 2021-06-08 15:44:53 - Thu_thread - Loading CSV ./pcap_lycos/Thursday-WorkingHours.pcap_lycos.csv
+[INFO] 2021-06-08 15:44:53 - Fri_thread - Loading CSV ./pcap_lycos/Friday-WorkingHours.pcap_lycos.csv
+[INFO] 2021-06-08 15:44:58 - Tue_thread - Loaded CSV ./pcap_lycos/Tuesday-WorkingHours.pcap_lycos.csv
+[INFO] 2021-06-08 15:44:58 - Tue_thread - Sorting by epoch time
+[INFO] 2021-06-08 15:44:58 - Thu_thread - Loaded CSV ./pcap_lycos/Thursday-WorkingHours.pcap_lycos.csv
+[INFO] 2021-06-08 15:44:58 - Thu_thread - Sorting by epoch time
+[INFO] 2021-06-08 15:44:58 - Tue_thread - Sorted all lines
+[INFO] 2021-06-08 15:44:58 - Tue_thread - Lycos benign: 312675
+[INFO] 2021-06-08 15:44:58 - Tue_thread - Lycos ftp_patator: 4003
+[INFO] 2021-06-08 15:44:58 - Tue_thread - Lycos ssh_patator: 2959
+[INFO] 2021-06-08 15:44:58 - Tue_thread - Writing CSV ./lycos-ids2017/Tuesday-WorkingHours.pcap_lycos.csv
+[INFO] 2021-06-08 15:44:58 - Mon_thread - Loaded CSV ./pcap_lycos/Monday-WorkingHours.pcap_lycos.csv
+[INFO] 2021-06-08 15:44:58 - Mon_thread - Sorting by epoch time
+[INFO] 2021-06-08 15:44:58 - Thu_thread - Sorted all lines
+[INFO] 2021-06-08 15:44:59 - Mon_thread - Sorted all lines
+[INFO] 2021-06-08 15:44:59 - Mon_thread - Lycos benign: 367181
+[INFO] 2021-06-08 15:44:59 - Mon_thread - Writing CSV ./lycos-ids2017/Monday-WorkingHours.pcap_lycos.csv
+[INFO] 2021-06-08 15:44:59 - Thu_thread - Lycos benign: 110448
+[INFO] 2021-06-08 15:44:59 - Thu_thread - Lycos webattack_bruteforce: 1360
+[INFO] 2021-06-08 15:44:59 - Thu_thread - Lycos webattack_xss: 661
+[INFO] 2021-06-08 15:44:59 - Thu_thread - Lycos webattack_sql_injection: 12
+[INFO] 2021-06-08 15:44:59 - Thu_thread - Writing CSV ./lycos-ids2017/Thursday-WorkingHours.pcap_lycos.csv
+[INFO] 2021-06-08 15:45:00 - Wed_thread - Loaded CSV ./pcap_lycos/Wednesday-WorkingHours.pcap_lycos.csv
+[INFO] 2021-06-08 15:45:00 - Wed_thread - Sorting by epoch time
+[INFO] 2021-06-08 15:45:00 - Fri_thread - Loaded CSV ./pcap_lycos/Friday-WorkingHours.pcap_lycos.csv
+[INFO] 2021-06-08 15:45:00 - Fri_thread - Sorting by epoch time
+[INFO] 2021-06-08 15:45:01 - Wed_thread - Sorted all lines
+[INFO] 2021-06-08 15:45:01 - Wed_thread - Lycos benign: 318933
+[INFO] 2021-06-08 15:45:01 - Wed_thread - Lycos dos_hulk: 158988
+[INFO] 2021-06-08 15:45:01 - Wed_thread - Lycos dos_goldeneye: 6765
+[INFO] 2021-06-08 15:45:01 - Wed_thread - Lycos dos_slowloris: 5674
+[INFO] 2021-06-08 15:45:01 - Wed_thread - Lycos dos_slowhttptest: 4866
+[INFO] 2021-06-08 15:45:01 - Wed_thread - Lycos heartbleed: 11
+[INFO] 2021-06-08 15:45:01 - Wed_thread - Writing CSV ./lycos-ids2017/Wednesday-WorkingHours.pcap_lycos.csv
+[INFO] 2021-06-08 15:45:01 - Fri_thread - Sorted all lines
+[INFO] 2021-06-08 15:45:02 - Fri_thread - Lycos benign: 286438
+[INFO] 2021-06-08 15:45:02 - Fri_thread - Lycos portscan: 160106
+[INFO] 2021-06-08 15:45:02 - Fri_thread - Lycos ddos: 95683
+[INFO] 2021-06-08 15:45:02 - Fri_thread - Lycos bot: 735
+[INFO] 2021-06-08 15:45:02 - Fri_thread - Writing CSV ./lycos-ids2017/Friday-WorkingHours.pcap_lycos.csv
+[INFO] 2021-06-08 15:45:03 - Thu_thread - Written CSV ./lycos-ids2017/Thursday-WorkingHours.pcap_lycos.csv
+[INFO] 2021-06-08 15:45:10 - Tue_thread - Written CSV ./lycos-ids2017/Tuesday-WorkingHours.pcap_lycos.csv
+[INFO] 2021-06-08 15:45:13 - Mon_thread - Written CSV ./lycos-ids2017/Monday-WorkingHours.pcap_lycos.csv
+[INFO] 2021-06-08 15:45:17 - Wed_thread - Written CSV ./lycos-ids2017/Wednesday-WorkingHours.pcap_lycos.csv
+[INFO] 2021-06-08 15:45:26 - Fri_thread - Written CSV ./lycos-ids2017/Friday-WorkingHours.pcap_lycos.csv
+[INFO] 2021-06-08 15:45:26 - ----Program finished----
