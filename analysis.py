@@ -824,6 +824,8 @@ def measure_perf(ds_train, ds_cv, ds_test, dataset_name):
     mlp.nn_desc.hyper_param.optim_params = optim_params
     t1 = datetime.now()
     train_nn(mlp, ds_train, ds_cv)
+    # retrieve best recorded epoch instead of the last epoch
+    mlp.restore (ds_cv)
     # Predictions
     t2 = datetime.now()
     t_train = t2 - t1

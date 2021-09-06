@@ -1,197 +1,197 @@
-[INFO] 2021-06-09 14:35:21 - Loading CSV ./cicids2017/csv_files/Monday-WorkingHours.pcap_ISCX.csv
-[INFO] 2021-06-09 14:35:28 - Loaded CSV ./cicids2017/csv_files/Monday-WorkingHours.pcap_ISCX.csv - shape: [529918,85]
-[INFO] 2021-06-09 14:35:28 - Extracting BENIGN ...
-[INFO] 2021-06-09 14:35:29 - NaN detected in flow_byte_per_s
-[INFO] 2021-06-09 14:35:29 - ==> Samples dropped: 64
-[INFO] 2021-06-09 14:35:29 - Previous shape: [529918, 85]
-[INFO] 2021-06-09 14:35:29 - New shape: [529854, 85]
-[INFO] 2021-06-09 14:35:29 - Loading CSV ./cicids2017/csv_files/Tuesday-WorkingHours.pcap_ISCX.csv
-[INFO] 2021-06-09 14:35:33 - Loaded CSV ./cicids2017/csv_files/Tuesday-WorkingHours.pcap_ISCX.csv - shape: [445909,85]
-[INFO] 2021-06-09 14:35:33 - Extracting BENIGN ...
-[INFO] 2021-06-09 14:35:35 - NaN detected in flow_byte_per_s
-[INFO] 2021-06-09 14:35:35 - ==> Samples dropped: 201
-[INFO] 2021-06-09 14:35:35 - Previous shape: [961928, 85]
-[INFO] 2021-06-09 14:35:35 - New shape: [961727, 85]
-[INFO] 2021-06-09 14:35:35 - Extracting FTP-Patator ...
-[INFO] 2021-06-09 14:35:35 - Extracting SSH-Patator ...
-[INFO] 2021-06-09 14:35:35 - Loading CSV ./cicids2017/csv_files/Wednesday-workingHours.pcap_ISCX.csv
-[INFO] 2021-06-09 14:35:42 - Loaded CSV ./cicids2017/csv_files/Wednesday-workingHours.pcap_ISCX.csv - shape: [692703,85]
-[INFO] 2021-06-09 14:35:42 - Extracting BENIGN ...
-[INFO] 2021-06-09 14:35:45 - NaN detected in flow_byte_per_s
-[INFO] 2021-06-09 14:35:45 - ==> Samples dropped: 59
-[INFO] 2021-06-09 14:35:45 - Previous shape: [1401758, 85]
-[INFO] 2021-06-09 14:35:45 - New shape: [1401699, 85]
-[INFO] 2021-06-09 14:35:45 - Extracting DoS Hulk ...
-[INFO] 2021-06-09 14:35:46 - NaN detected in flow_byte_per_s
-[INFO] 2021-06-09 14:35:46 - ==> Samples dropped: 949
-[INFO] 2021-06-09 14:35:46 - Previous shape: [231073, 85]
-[INFO] 2021-06-09 14:35:46 - New shape: [230124, 85]
-[INFO] 2021-06-09 14:35:46 - Extracting DoS GoldenEye ...
-[INFO] 2021-06-09 14:35:46 - Extracting DoS slowloris ...
-[INFO] 2021-06-09 14:35:46 - Extracting DoS Slowhttptest ...
-[INFO] 2021-06-09 14:35:46 - Extracting Heartbleed ...
-[INFO] 2021-06-09 14:35:46 - Loading CSV ./cicids2017/csv_files/Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv
-[INFO] 2021-06-09 14:35:48 - Loaded CSV ./cicids2017/csv_files/Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv - shape: [458968,85]
-[INFO] 2021-06-09 14:35:48 - Empty lines removed: 288602
-[INFO] 2021-06-09 14:35:48 - Extracting BENIGN ...
-[INFO] 2021-06-09 14:35:51 - NaN detected in flow_byte_per_s
-[INFO] 2021-06-09 14:35:51 - ==> Samples dropped: 20
-[INFO] 2021-06-09 14:35:52 - Previous shape: [1569885, 85]
-[INFO] 2021-06-09 14:35:52 - New shape: [1569865, 85]
-[INFO] 2021-06-09 14:35:52 - Extracting Web Attack  Brute Force ...
-[INFO] 2021-06-09 14:35:52 - Extracting Web Attack  XSS ...
-[INFO] 2021-06-09 14:35:52 - Extracting Web Attack  Sql Injection ...
-[INFO] 2021-06-09 14:35:52 - Loading CSV ./cicids2017/csv_files/Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv
-[INFO] 2021-06-09 14:35:54 - Loaded CSV ./cicids2017/csv_files/Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv - shape: [288602,85]
-[INFO] 2021-06-09 14:35:54 - Extracting BENIGN ...
-[INFO] 2021-06-09 14:35:58 - NaN detected in flow_byte_per_s
-[INFO] 2021-06-09 14:35:58 - ==> Samples dropped: 18
-[INFO] 2021-06-09 14:35:59 - Previous shape: [1858431, 85]
-[INFO] 2021-06-09 14:35:59 - New shape: [1858413, 85]
-[INFO] 2021-06-09 14:35:59 - Extracting Infiltration ...
-[INFO] 2021-06-09 14:35:59 - Loading CSV ./cicids2017/csv_files/Friday-WorkingHours-Morning.pcap_ISCX.csv
-[INFO] 2021-06-09 14:36:01 - Loaded CSV ./cicids2017/csv_files/Friday-WorkingHours-Morning.pcap_ISCX.csv - shape: [191033,85]
-[INFO] 2021-06-09 14:36:01 - Extracting BENIGN ...
-[INFO] 2021-06-09 14:36:04 - NaN detected in flow_byte_per_s
-[INFO] 2021-06-09 14:36:04 - ==> Samples dropped: 28
-[INFO] 2021-06-09 14:36:05 - Previous shape: [2047480, 85]
-[INFO] 2021-06-09 14:36:05 - New shape: [2047452, 85]
-[INFO] 2021-06-09 14:36:05 - Extracting Bot ...
-[INFO] 2021-06-09 14:36:05 - Loading CSV ./cicids2017/csv_files/Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv
-[INFO] 2021-06-09 14:36:08 - Loaded CSV ./cicids2017/csv_files/Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv - shape: [286467,85]
-[INFO] 2021-06-09 14:36:08 - Extracting PortScan ...
-[INFO] 2021-06-09 14:36:08 - Extracting BENIGN ...
-[INFO] 2021-06-09 14:36:12 - NaN detected in flow_byte_per_s
-[INFO] 2021-06-09 14:36:12 - ==> Samples dropped: 15
-[INFO] 2021-06-09 14:36:13 - Previous shape: [2174989, 85]
-[INFO] 2021-06-09 14:36:13 - New shape: [2174974, 85]
-[INFO] 2021-06-09 14:36:13 - Loading CSV ./cicids2017/csv_files/Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv
-[INFO] 2021-06-09 14:36:15 - Loaded CSV ./cicids2017/csv_files/Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv - shape: [225745,85]
-[INFO] 2021-06-09 14:36:15 - Extracting DDoS ...
-[INFO] 2021-06-09 14:36:15 - Extracting BENIGN ...
-[INFO] 2021-06-09 14:36:19 - NaN detected in flow_byte_per_s
-[INFO] 2021-06-09 14:36:19 - ==> Samples dropped: 4
-[INFO] 2021-06-09 14:36:20 - Previous shape: [2272692, 85]
-[INFO] 2021-06-09 14:36:20 - New shape: [2272688, 85]
-[INFO] 2021-06-09 14:36:21 - Splitting dataset ...
-[INFO] 2021-06-09 14:36:23 - benign - n_rows: 2272688 - training: 9.6941% - cv: 4.84705%
-[INFO] 2021-06-09 14:36:23 - benign - training instances: 220316 - crossval/test instances: 110158
-[INFO] 2021-06-09 14:36:23 - bot - n_rows: 1966 - training: 18.6674% - cv: 9.3337%
-[INFO] 2021-06-09 14:36:23 - bot - training instances: 367 - crossval/test instances: 183
-[INFO] 2021-06-09 14:36:24 - ddos - n_rows: 128027 - training: 37.3679% - cv: 18.68395%
-[INFO] 2021-06-09 14:36:24 - ddos - training instances: 47841 - crossval/test instances: 23920
-[INFO] 2021-06-09 14:36:24 - dos_goldeneye - n_rows: 10293 - training: 32.8573% - cv: 16.42865%
-[INFO] 2021-06-09 14:36:24 - dos_goldeneye - training instances: 3382 - crossval/test instances: 1691
-[INFO] 2021-06-09 14:36:24 - dos_hulk - n_rows: 230124 - training: 34.544% - cv: 17.272%
-[INFO] 2021-06-09 14:36:24 - dos_hulk - training instances: 79494 - crossval/test instances: 39747
-[INFO] 2021-06-09 14:36:25 - dos_slowhttptest - n_rows: 5499 - training: 44.2445% - cv: 22.12225%
-[INFO] 2021-06-09 14:36:25 - dos_slowhttptest - training instances: 2433 - crossval/test instances: 1216
-[INFO] 2021-06-09 14:36:25 - dos_slowloris - n_rows: 5796 - training: 48.9476% - cv: 24.4738%
-[INFO] 2021-06-09 14:36:25 - dos_slowloris - training instances: 2837 - crossval/test instances: 1418
-[INFO] 2021-06-09 14:36:25 - ftp_patator - n_rows: 7938 - training: 25.2079% - cv: 12.60395%
-[INFO] 2021-06-09 14:36:25 - ftp_patator - training instances: 2001 - crossval/test instances: 1000
-[INFO] 2021-06-09 14:36:26 - heartbleed - n_rows: 11 - training: 45.4546% - cv: 22.7273%
-[INFO] 2021-06-09 14:36:26 - heartbleed - training instances: 5 - crossval/test instances: 2
-[INFO] 2021-06-09 14:36:26 - portscan - n_rows: 158930 - training: 50.0% - cv: 25.0%
-[INFO] 2021-06-09 14:36:26 - portscan - training instances: 79465 - crossval/test instances: 39732
-[INFO] 2021-06-09 14:36:27 - ssh_patator - n_rows: 5897 - training: 25.0806% - cv: 12.5403%
-[INFO] 2021-06-09 14:36:27 - ssh_patator - training instances: 1479 - crossval/test instances: 739
-[INFO] 2021-06-09 14:36:27 - webattack_bruteforce - n_rows: 1507 - training: 45.1228% - cv: 22.5614%
-[INFO] 2021-06-09 14:36:27 - webattack_bruteforce - training instances: 680 - crossval/test instances: 340
-[INFO] 2021-06-09 14:36:28 - webattack_sql_injection - n_rows: 21 - training: 28.5715% - cv: 14.28575%
-[INFO] 2021-06-09 14:36:28 - webattack_sql_injection - training instances: 6 - crossval/test instances: 3
-[INFO] 2021-06-09 14:36:28 - webattack_xss - n_rows: 652 - training: 50.0% - cv: 25.0%
-[INFO] 2021-06-09 14:36:28 - webattack_xss - training instances: 326 - crossval/test instances: 163
-[INFO] 2021-06-09 14:36:29 - Infiltration - n_rows: 36 - training: 0% - cv: 0.0%
-[INFO] 2021-06-09 14:36:29 - Infiltration - training instances: 0 - crossval/test instances: 0
-[INFO] 2021-06-09 14:36:30 - Training set shape: (440632, 85)
-[INFO] 2021-06-09 14:36:30 - Cross-val set shape: (220312, 85)
-[INFO] 2021-06-09 14:36:30 - Test set shape: (220312, 85)
-[INFO] 2021-06-09 14:36:30 - Feature bwd_psh_flag can be dropped - min = max = 0.0
-[INFO] 2021-06-09 14:36:30 - Feature bwd_urg_flag can be dropped - min = max = 0.0
-[INFO] 2021-06-09 14:36:30 - Feature avg_fwd_byte_per_bulk can be dropped - min = max = 0.0
-[INFO] 2021-06-09 14:36:30 - Feature avg_fwd_pkt_per_bulk can be dropped - min = max = 0.0
-[INFO] 2021-06-09 14:36:30 - Feature avg_fwd_bulk_rate can be dropped - min = max = 0.0
-[INFO] 2021-06-09 14:36:30 - Feature avg_bwd_byte_per_bulk can be dropped - min = max = 0.0
-[INFO] 2021-06-09 14:36:30 - Feature avg_bwd_pkt_per_bulk can be dropped - min = max = 0.0
-[INFO] 2021-06-09 14:36:30 - Feature avg_bwd_bulk_rate can be dropped - min = max = 0.0
-[INFO] 2021-06-09 14:36:30 - Writing ISCX Parquet files ...
-[INFO] 2021-06-09 14:36:36 - Loading CSV ./lycos-ids2017/Monday-WorkingHours.pcap_lycos.csv
-[INFO] 2021-06-09 14:36:40 - Loaded CSV ./lycos-ids2017/Monday-WorkingHours.pcap_lycos.csv - shape: [367181,83]
-[INFO] 2021-06-09 14:36:40 - Extracting benign ...
-[INFO] 2021-06-09 14:36:40 - Loading CSV ./lycos-ids2017/Tuesday-WorkingHours.pcap_lycos.csv
-[INFO] 2021-06-09 14:36:43 - Loaded CSV ./lycos-ids2017/Tuesday-WorkingHours.pcap_lycos.csv - shape: [319637,83]
-[INFO] 2021-06-09 14:36:44 - Extracting benign ...
-[INFO] 2021-06-09 14:36:44 - Extracting ftp_patator ...
-[INFO] 2021-06-09 14:36:44 - Extracting ssh_patator ...
-[INFO] 2021-06-09 14:36:44 - Loading CSV ./lycos-ids2017/Wednesday-WorkingHours.pcap_lycos.csv
-[INFO] 2021-06-09 14:36:49 - Loaded CSV ./lycos-ids2017/Wednesday-WorkingHours.pcap_lycos.csv - shape: [495237,83]
-[INFO] 2021-06-09 14:36:49 - Extracting benign ...
-[INFO] 2021-06-09 14:36:50 - Extracting dos_hulk ...
-[INFO] 2021-06-09 14:36:51 - Extracting dos_goldeneye ...
-[INFO] 2021-06-09 14:36:51 - Extracting dos_slowloris ...
-[INFO] 2021-06-09 14:36:51 - Extracting dos_slowhttptest ...
-[INFO] 2021-06-09 14:36:51 - Extracting heartbleed ...
-[INFO] 2021-06-09 14:36:51 - Loading CSV ./lycos-ids2017/Thursday-WorkingHours.pcap_lycos.csv
-[INFO] 2021-06-09 14:36:52 - Loaded CSV ./lycos-ids2017/Thursday-WorkingHours.pcap_lycos.csv - shape: [112481,83]
-[INFO] 2021-06-09 14:36:52 - Extracting benign ...
-[INFO] 2021-06-09 14:36:53 - Extracting webattack_bruteforce ...
-[INFO] 2021-06-09 14:36:53 - Extracting webattack_xss ...
-[INFO] 2021-06-09 14:36:53 - Extracting webattack_sql_injection ...
-[INFO] 2021-06-09 14:36:53 - Loading CSV ./lycos-ids2017/Friday-WorkingHours.pcap_lycos.csv
-[INFO] 2021-06-09 14:36:58 - Loaded CSV ./lycos-ids2017/Friday-WorkingHours.pcap_lycos.csv - shape: [542962,83]
-[INFO] 2021-06-09 14:36:58 - Extracting benign ...
-[INFO] 2021-06-09 14:37:00 - Extracting portscan ...
-[INFO] 2021-06-09 14:37:00 - Extracting ddos ...
-[INFO] 2021-06-09 14:37:00 - Extracting bot ...
-[INFO] 2021-06-09 14:37:00 - benign: 1395675 instances
-[INFO] 2021-06-09 14:37:00 - bot: 735 instances
-[INFO] 2021-06-09 14:37:00 - ddos: 95683 instances
-[INFO] 2021-06-09 14:37:00 - dos_goldeneye: 6765 instances
-[INFO] 2021-06-09 14:37:00 - dos_hulk: 158988 instances
-[INFO] 2021-06-09 14:37:00 - dos_slowhttptest: 4866 instances
-[INFO] 2021-06-09 14:37:00 - dos_slowloris: 5674 instances
-[INFO] 2021-06-09 14:37:00 - ftp_patator: 4003 instances
-[INFO] 2021-06-09 14:37:00 - heartbleed: 11 instances
-[INFO] 2021-06-09 14:37:00 - portscan: 160106 instances
-[INFO] 2021-06-09 14:37:00 - ssh_patator: 2959 instances
-[INFO] 2021-06-09 14:37:00 - webattack_bruteforce: 1360 instances
-[INFO] 2021-06-09 14:37:00 - webattack_sql_injection: 12 instances
-[INFO] 2021-06-09 14:37:00 - webattack_xss: 661 instances
-[INFO] 2021-06-09 14:37:00 - Splitting dataset ...
-[INFO] 2021-06-09 14:37:01 - benign - n_rows: 1395675 - training: 15.78565% - cv: 7.892825%
-[INFO] 2021-06-09 14:37:01 - benign - training instances: 220316 - crossval/test instances: 110158
-[INFO] 2021-06-09 14:37:02 - bot - n_rows: 735 - training: 50.0% - cv: 25.0%
-[INFO] 2021-06-09 14:37:02 - bot - training instances: 367 - crossval/test instances: 183
-[INFO] 2021-06-09 14:37:02 - ddos - n_rows: 95683 - training: 50.0% - cv: 25.0%
-[INFO] 2021-06-09 14:37:02 - ddos - training instances: 47841 - crossval/test instances: 23920
-[INFO] 2021-06-09 14:37:02 - dos_goldeneye - n_rows: 6765 - training: 50.0% - cv: 25.0%
-[INFO] 2021-06-09 14:37:02 - dos_goldeneye - training instances: 3382 - crossval/test instances: 1691
-[INFO] 2021-06-09 14:37:02 - dos_hulk - n_rows: 158988 - training: 50.0% - cv: 25.0%
-[INFO] 2021-06-09 14:37:02 - dos_hulk - training instances: 79494 - crossval/test instances: 39747
-[INFO] 2021-06-09 14:37:03 - dos_slowhttptest - n_rows: 4866 - training: 50.0% - cv: 25.0%
-[INFO] 2021-06-09 14:37:03 - dos_slowhttptest - training instances: 2433 - crossval/test instances: 1216
-[INFO] 2021-06-09 14:37:03 - dos_slowloris - n_rows: 5674 - training: 50.0% - cv: 25.0%
-[INFO] 2021-06-09 14:37:03 - dos_slowloris - training instances: 2837 - crossval/test instances: 1418
-[INFO] 2021-06-09 14:37:03 - ftp_patator - n_rows: 4003 - training: 50.0% - cv: 25.0%
-[INFO] 2021-06-09 14:37:03 - ftp_patator - training instances: 2001 - crossval/test instances: 1000
-[INFO] 2021-06-09 14:37:04 - heartbleed - n_rows: 11 - training: 50.0% - cv: 25.0%
-[INFO] 2021-06-09 14:37:04 - heartbleed - training instances: 5 - crossval/test instances: 2
-[INFO] 2021-06-09 14:37:04 - portscan - n_rows: 160106 - training: 49.6328% - cv: 24.8164%
-[INFO] 2021-06-09 14:37:04 - portscan - training instances: 79465 - crossval/test instances: 39732
-[INFO] 2021-06-09 14:37:05 - ssh_patator - n_rows: 2959 - training: 50.0% - cv: 25.0%
-[INFO] 2021-06-09 14:37:05 - ssh_patator - training instances: 1479 - crossval/test instances: 739
-[INFO] 2021-06-09 14:37:05 - webattack_bruteforce - n_rows: 1360 - training: 50.0% - cv: 25.0%
-[INFO] 2021-06-09 14:37:05 - webattack_bruteforce - training instances: 680 - crossval/test instances: 340
-[INFO] 2021-06-09 14:37:06 - webattack_sql_injection - n_rows: 12 - training: 50.0% - cv: 25.0%
-[INFO] 2021-06-09 14:37:06 - webattack_sql_injection - training instances: 6 - crossval/test instances: 3
-[INFO] 2021-06-09 14:37:07 - webattack_xss - n_rows: 661 - training: 49.3193% - cv: 24.65965%
-[INFO] 2021-06-09 14:37:07 - webattack_xss - training instances: 326 - crossval/test instances: 163
-[INFO] 2021-06-09 14:37:08 - Training set shape: (440632, 83)
-[INFO] 2021-06-09 14:37:08 - Cross-val set shape: (220312, 83)
-[INFO] 2021-06-09 14:37:08 - Test set shape: (220312, 83)
-[INFO] 2021-06-09 14:37:08 - Feature flag_urg can be dropped - min = max = 0
-[INFO] 2021-06-09 14:37:08 - Feature fwd_flag_urg can be dropped - min = max = 0
-[INFO] 2021-06-09 14:37:08 - Feature bwd_flag_urg can be dropped - min = max = 0
-[INFO] 2021-06-09 14:37:08 - Writing Lycos Parquet files ...
-[INFO] 2021-06-09 14:37:13 - ----Program finished----
+[INFO] 2021-09-05 15:40:47 - Loading CSV ./cicids2017/csv_files/Monday-WorkingHours.pcap_ISCX.csv
+[INFO] 2021-09-05 15:40:53 - Loaded CSV ./cicids2017/csv_files/Monday-WorkingHours.pcap_ISCX.csv - shape: [529918,85]
+[INFO] 2021-09-05 15:40:53 - Extracting BENIGN ...
+[INFO] 2021-09-05 15:40:54 - NaN detected in flow_byte_per_s
+[INFO] 2021-09-05 15:40:54 - ==> Samples dropped: 64
+[INFO] 2021-09-05 15:40:54 - Previous shape: [529918, 85]
+[INFO] 2021-09-05 15:40:54 - New shape: [529854, 85]
+[INFO] 2021-09-05 15:40:54 - Loading CSV ./cicids2017/csv_files/Tuesday-WorkingHours.pcap_ISCX.csv
+[INFO] 2021-09-05 15:40:57 - Loaded CSV ./cicids2017/csv_files/Tuesday-WorkingHours.pcap_ISCX.csv - shape: [445909,85]
+[INFO] 2021-09-05 15:40:58 - Extracting BENIGN ...
+[INFO] 2021-09-05 15:40:59 - NaN detected in flow_byte_per_s
+[INFO] 2021-09-05 15:40:59 - ==> Samples dropped: 201
+[INFO] 2021-09-05 15:40:59 - Previous shape: [961928, 85]
+[INFO] 2021-09-05 15:40:59 - New shape: [961727, 85]
+[INFO] 2021-09-05 15:40:59 - Extracting FTP-Patator ...
+[INFO] 2021-09-05 15:40:59 - Extracting SSH-Patator ...
+[INFO] 2021-09-05 15:40:59 - Loading CSV ./cicids2017/csv_files/Wednesday-workingHours.pcap_ISCX.csv
+[INFO] 2021-09-05 15:41:05 - Loaded CSV ./cicids2017/csv_files/Wednesday-workingHours.pcap_ISCX.csv - shape: [692703,85]
+[INFO] 2021-09-05 15:41:05 - Extracting BENIGN ...
+[INFO] 2021-09-05 15:41:07 - NaN detected in flow_byte_per_s
+[INFO] 2021-09-05 15:41:07 - ==> Samples dropped: 59
+[INFO] 2021-09-05 15:41:08 - Previous shape: [1401758, 85]
+[INFO] 2021-09-05 15:41:08 - New shape: [1401699, 85]
+[INFO] 2021-09-05 15:41:08 - Extracting DoS Hulk ...
+[INFO] 2021-09-05 15:41:08 - NaN detected in flow_byte_per_s
+[INFO] 2021-09-05 15:41:08 - ==> Samples dropped: 949
+[INFO] 2021-09-05 15:41:08 - Previous shape: [231073, 85]
+[INFO] 2021-09-05 15:41:08 - New shape: [230124, 85]
+[INFO] 2021-09-05 15:41:08 - Extracting DoS GoldenEye ...
+[INFO] 2021-09-05 15:41:08 - Extracting DoS slowloris ...
+[INFO] 2021-09-05 15:41:08 - Extracting DoS Slowhttptest ...
+[INFO] 2021-09-05 15:41:08 - Extracting Heartbleed ...
+[INFO] 2021-09-05 15:41:08 - Loading CSV ./cicids2017/csv_files/Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv
+[INFO] 2021-09-05 15:41:10 - Loaded CSV ./cicids2017/csv_files/Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv - shape: [458968,85]
+[INFO] 2021-09-05 15:41:11 - Empty lines removed: 288602
+[INFO] 2021-09-05 15:41:11 - Extracting BENIGN ...
+[INFO] 2021-09-05 15:41:13 - NaN detected in flow_byte_per_s
+[INFO] 2021-09-05 15:41:13 - ==> Samples dropped: 20
+[INFO] 2021-09-05 15:41:13 - Previous shape: [1569885, 85]
+[INFO] 2021-09-05 15:41:13 - New shape: [1569865, 85]
+[INFO] 2021-09-05 15:41:13 - Extracting Web Attack  Brute Force ...
+[INFO] 2021-09-05 15:41:13 - Extracting Web Attack  XSS ...
+[INFO] 2021-09-05 15:41:13 - Extracting Web Attack  Sql Injection ...
+[INFO] 2021-09-05 15:41:13 - Loading CSV ./cicids2017/csv_files/Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv
+[INFO] 2021-09-05 15:41:16 - Loaded CSV ./cicids2017/csv_files/Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv - shape: [288602,85]
+[INFO] 2021-09-05 15:41:16 - Extracting BENIGN ...
+[INFO] 2021-09-05 15:41:18 - NaN detected in flow_byte_per_s
+[INFO] 2021-09-05 15:41:18 - ==> Samples dropped: 18
+[INFO] 2021-09-05 15:41:19 - Previous shape: [1858431, 85]
+[INFO] 2021-09-05 15:41:19 - New shape: [1858413, 85]
+[INFO] 2021-09-05 15:41:19 - Extracting Infiltration ...
+[INFO] 2021-09-05 15:41:19 - Loading CSV ./cicids2017/csv_files/Friday-WorkingHours-Morning.pcap_ISCX.csv
+[INFO] 2021-09-05 15:41:21 - Loaded CSV ./cicids2017/csv_files/Friday-WorkingHours-Morning.pcap_ISCX.csv - shape: [191033,85]
+[INFO] 2021-09-05 15:41:21 - Extracting BENIGN ...
+[INFO] 2021-09-05 15:41:24 - NaN detected in flow_byte_per_s
+[INFO] 2021-09-05 15:41:24 - ==> Samples dropped: 28
+[INFO] 2021-09-05 15:41:25 - Previous shape: [2047480, 85]
+[INFO] 2021-09-05 15:41:25 - New shape: [2047452, 85]
+[INFO] 2021-09-05 15:41:25 - Extracting Bot ...
+[INFO] 2021-09-05 15:41:25 - Loading CSV ./cicids2017/csv_files/Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv
+[INFO] 2021-09-05 15:41:27 - Loaded CSV ./cicids2017/csv_files/Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv - shape: [286467,85]
+[INFO] 2021-09-05 15:41:27 - Extracting PortScan ...
+[INFO] 2021-09-05 15:41:27 - Extracting BENIGN ...
+[INFO] 2021-09-05 15:41:30 - NaN detected in flow_byte_per_s
+[INFO] 2021-09-05 15:41:30 - ==> Samples dropped: 15
+[INFO] 2021-09-05 15:41:31 - Previous shape: [2174989, 85]
+[INFO] 2021-09-05 15:41:31 - New shape: [2174974, 85]
+[INFO] 2021-09-05 15:41:31 - Loading CSV ./cicids2017/csv_files/Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv
+[INFO] 2021-09-05 15:41:33 - Loaded CSV ./cicids2017/csv_files/Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv - shape: [225745,85]
+[INFO] 2021-09-05 15:41:33 - Extracting DDoS ...
+[INFO] 2021-09-05 15:41:33 - Extracting BENIGN ...
+[INFO] 2021-09-05 15:41:37 - NaN detected in flow_byte_per_s
+[INFO] 2021-09-05 15:41:37 - ==> Samples dropped: 4
+[INFO] 2021-09-05 15:41:38 - Previous shape: [2272692, 85]
+[INFO] 2021-09-05 15:41:38 - New shape: [2272688, 85]
+[INFO] 2021-09-05 15:41:38 - Splitting dataset ...
+[INFO] 2021-09-05 15:41:40 - benign - n_rows: 2272688 - training: 9.6941% - cv: 4.84705%
+[INFO] 2021-09-05 15:41:40 - benign - training instances: 220316 - crossval/test instances: 110158
+[INFO] 2021-09-05 15:41:41 - bot - n_rows: 1966 - training: 18.6674% - cv: 9.3337%
+[INFO] 2021-09-05 15:41:41 - bot - training instances: 367 - crossval/test instances: 183
+[INFO] 2021-09-05 15:41:41 - ddos - n_rows: 128027 - training: 37.3679% - cv: 18.68395%
+[INFO] 2021-09-05 15:41:41 - ddos - training instances: 47841 - crossval/test instances: 23920
+[INFO] 2021-09-05 15:41:41 - dos_goldeneye - n_rows: 10293 - training: 32.8573% - cv: 16.42865%
+[INFO] 2021-09-05 15:41:41 - dos_goldeneye - training instances: 3382 - crossval/test instances: 1691
+[INFO] 2021-09-05 15:41:42 - dos_hulk - n_rows: 230124 - training: 34.544% - cv: 17.272%
+[INFO] 2021-09-05 15:41:42 - dos_hulk - training instances: 79494 - crossval/test instances: 39747
+[INFO] 2021-09-05 15:41:42 - dos_slowhttptest - n_rows: 5499 - training: 44.2445% - cv: 22.12225%
+[INFO] 2021-09-05 15:41:42 - dos_slowhttptest - training instances: 2433 - crossval/test instances: 1216
+[INFO] 2021-09-05 15:41:42 - dos_slowloris - n_rows: 5796 - training: 48.9476% - cv: 24.4738%
+[INFO] 2021-09-05 15:41:42 - dos_slowloris - training instances: 2837 - crossval/test instances: 1418
+[INFO] 2021-09-05 15:41:43 - ftp_patator - n_rows: 7938 - training: 25.2079% - cv: 12.60395%
+[INFO] 2021-09-05 15:41:43 - ftp_patator - training instances: 2001 - crossval/test instances: 1000
+[INFO] 2021-09-05 15:41:43 - heartbleed - n_rows: 11 - training: 45.4546% - cv: 22.7273%
+[INFO] 2021-09-05 15:41:43 - heartbleed - training instances: 5 - crossval/test instances: 2
+[INFO] 2021-09-05 15:41:44 - portscan - n_rows: 158930 - training: 50.0% - cv: 25.0%
+[INFO] 2021-09-05 15:41:44 - portscan - training instances: 79465 - crossval/test instances: 39732
+[INFO] 2021-09-05 15:41:44 - ssh_patator - n_rows: 5897 - training: 25.0806% - cv: 12.5403%
+[INFO] 2021-09-05 15:41:44 - ssh_patator - training instances: 1479 - crossval/test instances: 739
+[INFO] 2021-09-05 15:41:45 - webattack_bruteforce - n_rows: 1507 - training: 45.1228% - cv: 22.5614%
+[INFO] 2021-09-05 15:41:45 - webattack_bruteforce - training instances: 680 - crossval/test instances: 340
+[INFO] 2021-09-05 15:41:45 - webattack_sql_injection - n_rows: 21 - training: 28.5715% - cv: 14.28575%
+[INFO] 2021-09-05 15:41:45 - webattack_sql_injection - training instances: 6 - crossval/test instances: 3
+[INFO] 2021-09-05 15:41:46 - webattack_xss - n_rows: 652 - training: 50.0% - cv: 25.0%
+[INFO] 2021-09-05 15:41:46 - webattack_xss - training instances: 326 - crossval/test instances: 163
+[INFO] 2021-09-05 15:41:46 - Infiltration - n_rows: 36 - training: 0% - cv: 0.0%
+[INFO] 2021-09-05 15:41:46 - Infiltration - training instances: 0 - crossval/test instances: 0
+[INFO] 2021-09-05 15:41:47 - Training set shape: (440632, 85)
+[INFO] 2021-09-05 15:41:47 - Cross-val set shape: (220312, 85)
+[INFO] 2021-09-05 15:41:47 - Test set shape: (220312, 85)
+[INFO] 2021-09-05 15:41:47 - Feature bwd_psh_flag can be dropped - min = max = 0.0
+[INFO] 2021-09-05 15:41:47 - Feature bwd_urg_flag can be dropped - min = max = 0.0
+[INFO] 2021-09-05 15:41:47 - Feature avg_fwd_byte_per_bulk can be dropped - min = max = 0.0
+[INFO] 2021-09-05 15:41:47 - Feature avg_fwd_pkt_per_bulk can be dropped - min = max = 0.0
+[INFO] 2021-09-05 15:41:47 - Feature avg_fwd_bulk_rate can be dropped - min = max = 0.0
+[INFO] 2021-09-05 15:41:47 - Feature avg_bwd_byte_per_bulk can be dropped - min = max = 0.0
+[INFO] 2021-09-05 15:41:47 - Feature avg_bwd_pkt_per_bulk can be dropped - min = max = 0.0
+[INFO] 2021-09-05 15:41:47 - Feature avg_bwd_bulk_rate can be dropped - min = max = 0.0
+[INFO] 2021-09-05 15:41:48 - Writing ISCX Parquet files ...
+[INFO] 2021-09-05 15:41:50 - Loading CSV ./lycos-ids2017/Monday-WorkingHours.pcap_lycos.csv
+[INFO] 2021-09-05 15:41:53 - Loaded CSV ./lycos-ids2017/Monday-WorkingHours.pcap_lycos.csv - shape: [367181,83]
+[INFO] 2021-09-05 15:41:54 - Extracting benign ...
+[INFO] 2021-09-05 15:41:54 - Loading CSV ./lycos-ids2017/Tuesday-WorkingHours.pcap_lycos.csv
+[INFO] 2021-09-05 15:41:57 - Loaded CSV ./lycos-ids2017/Tuesday-WorkingHours.pcap_lycos.csv - shape: [319637,83]
+[INFO] 2021-09-05 15:41:57 - Extracting benign ...
+[INFO] 2021-09-05 15:41:58 - Extracting ftp_patator ...
+[INFO] 2021-09-05 15:41:58 - Extracting ssh_patator ...
+[INFO] 2021-09-05 15:41:58 - Loading CSV ./lycos-ids2017/Wednesday-WorkingHours.pcap_lycos.csv
+[INFO] 2021-09-05 15:42:03 - Loaded CSV ./lycos-ids2017/Wednesday-WorkingHours.pcap_lycos.csv - shape: [495237,83]
+[INFO] 2021-09-05 15:42:03 - Extracting benign ...
+[INFO] 2021-09-05 15:42:04 - Extracting dos_hulk ...
+[INFO] 2021-09-05 15:42:04 - Extracting dos_goldeneye ...
+[INFO] 2021-09-05 15:42:04 - Extracting dos_slowloris ...
+[INFO] 2021-09-05 15:42:04 - Extracting dos_slowhttptest ...
+[INFO] 2021-09-05 15:42:04 - Extracting heartbleed ...
+[INFO] 2021-09-05 15:42:04 - Loading CSV ./lycos-ids2017/Thursday-WorkingHours.pcap_lycos.csv
+[INFO] 2021-09-05 15:42:05 - Loaded CSV ./lycos-ids2017/Thursday-WorkingHours.pcap_lycos.csv - shape: [112481,83]
+[INFO] 2021-09-05 15:42:05 - Extracting benign ...
+[INFO] 2021-09-05 15:42:06 - Extracting webattack_bruteforce ...
+[INFO] 2021-09-05 15:42:06 - Extracting webattack_xss ...
+[INFO] 2021-09-05 15:42:06 - Extracting webattack_sql_injection ...
+[INFO] 2021-09-05 15:42:06 - Loading CSV ./lycos-ids2017/Friday-WorkingHours.pcap_lycos.csv
+[INFO] 2021-09-05 15:42:11 - Loaded CSV ./lycos-ids2017/Friday-WorkingHours.pcap_lycos.csv - shape: [542962,83]
+[INFO] 2021-09-05 15:42:11 - Extracting benign ...
+[INFO] 2021-09-05 15:42:13 - Extracting portscan ...
+[INFO] 2021-09-05 15:42:13 - Extracting ddos ...
+[INFO] 2021-09-05 15:42:13 - Extracting bot ...
+[INFO] 2021-09-05 15:42:13 - benign: 1395675 instances
+[INFO] 2021-09-05 15:42:13 - bot: 735 instances
+[INFO] 2021-09-05 15:42:13 - ddos: 95683 instances
+[INFO] 2021-09-05 15:42:13 - dos_goldeneye: 6765 instances
+[INFO] 2021-09-05 15:42:13 - dos_hulk: 158988 instances
+[INFO] 2021-09-05 15:42:13 - dos_slowhttptest: 4866 instances
+[INFO] 2021-09-05 15:42:13 - dos_slowloris: 5674 instances
+[INFO] 2021-09-05 15:42:13 - ftp_patator: 4003 instances
+[INFO] 2021-09-05 15:42:13 - heartbleed: 11 instances
+[INFO] 2021-09-05 15:42:13 - portscan: 160106 instances
+[INFO] 2021-09-05 15:42:13 - ssh_patator: 2959 instances
+[INFO] 2021-09-05 15:42:13 - webattack_bruteforce: 1360 instances
+[INFO] 2021-09-05 15:42:13 - webattack_sql_injection: 12 instances
+[INFO] 2021-09-05 15:42:13 - webattack_xss: 661 instances
+[INFO] 2021-09-05 15:42:13 - Splitting dataset ...
+[INFO] 2021-09-05 15:42:14 - benign - n_rows: 1395675 - training: 15.78565% - cv: 7.892825%
+[INFO] 2021-09-05 15:42:14 - benign - training instances: 220316 - crossval/test instances: 110158
+[INFO] 2021-09-05 15:42:14 - bot - n_rows: 735 - training: 50.0% - cv: 25.0%
+[INFO] 2021-09-05 15:42:14 - bot - training instances: 367 - crossval/test instances: 183
+[INFO] 2021-09-05 15:42:14 - ddos - n_rows: 95683 - training: 50.0% - cv: 25.0%
+[INFO] 2021-09-05 15:42:14 - ddos - training instances: 47841 - crossval/test instances: 23920
+[INFO] 2021-09-05 15:42:15 - dos_goldeneye - n_rows: 6765 - training: 50.0% - cv: 25.0%
+[INFO] 2021-09-05 15:42:15 - dos_goldeneye - training instances: 3382 - crossval/test instances: 1691
+[INFO] 2021-09-05 15:42:15 - dos_hulk - n_rows: 158988 - training: 50.0% - cv: 25.0%
+[INFO] 2021-09-05 15:42:15 - dos_hulk - training instances: 79494 - crossval/test instances: 39747
+[INFO] 2021-09-05 15:42:15 - dos_slowhttptest - n_rows: 4866 - training: 50.0% - cv: 25.0%
+[INFO] 2021-09-05 15:42:15 - dos_slowhttptest - training instances: 2433 - crossval/test instances: 1216
+[INFO] 2021-09-05 15:42:16 - dos_slowloris - n_rows: 5674 - training: 50.0% - cv: 25.0%
+[INFO] 2021-09-05 15:42:16 - dos_slowloris - training instances: 2837 - crossval/test instances: 1418
+[INFO] 2021-09-05 15:42:16 - ftp_patator - n_rows: 4003 - training: 50.0% - cv: 25.0%
+[INFO] 2021-09-05 15:42:16 - ftp_patator - training instances: 2001 - crossval/test instances: 1000
+[INFO] 2021-09-05 15:42:17 - heartbleed - n_rows: 11 - training: 50.0% - cv: 25.0%
+[INFO] 2021-09-05 15:42:17 - heartbleed - training instances: 5 - crossval/test instances: 2
+[INFO] 2021-09-05 15:42:17 - portscan - n_rows: 160106 - training: 49.6328% - cv: 24.8164%
+[INFO] 2021-09-05 15:42:17 - portscan - training instances: 79465 - crossval/test instances: 39732
+[INFO] 2021-09-05 15:42:17 - ssh_patator - n_rows: 2959 - training: 50.0% - cv: 25.0%
+[INFO] 2021-09-05 15:42:17 - ssh_patator - training instances: 1479 - crossval/test instances: 739
+[INFO] 2021-09-05 15:42:18 - webattack_bruteforce - n_rows: 1360 - training: 50.0% - cv: 25.0%
+[INFO] 2021-09-05 15:42:18 - webattack_bruteforce - training instances: 680 - crossval/test instances: 340
+[INFO] 2021-09-05 15:42:18 - webattack_sql_injection - n_rows: 12 - training: 50.0% - cv: 25.0%
+[INFO] 2021-09-05 15:42:18 - webattack_sql_injection - training instances: 6 - crossval/test instances: 3
+[INFO] 2021-09-05 15:42:19 - webattack_xss - n_rows: 661 - training: 49.3193% - cv: 24.65965%
+[INFO] 2021-09-05 15:42:19 - webattack_xss - training instances: 326 - crossval/test instances: 163
+[INFO] 2021-09-05 15:42:20 - Training set shape: (440632, 83)
+[INFO] 2021-09-05 15:42:20 - Cross-val set shape: (220312, 83)
+[INFO] 2021-09-05 15:42:20 - Test set shape: (220312, 83)
+[INFO] 2021-09-05 15:42:20 - Feature flag_urg can be dropped - min = max = 0
+[INFO] 2021-09-05 15:42:20 - Feature fwd_flag_urg can be dropped - min = max = 0
+[INFO] 2021-09-05 15:42:20 - Feature bwd_flag_urg can be dropped - min = max = 0
+[INFO] 2021-09-05 15:42:20 - Writing Lycos Parquet files ...
+[INFO] 2021-09-05 15:42:22 - ----Program finished----
